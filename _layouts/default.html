@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Pushy API</title>
+	
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+	<!--[if IE]>
+		<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection">
+	<![endif]-->
+  
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8"/>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="span-21" id="header">
+      <div class="span-10">
+        <a href="/"><img src="images/develop-github.png" alt="github learn logo" /></a>
+      </div>
+
+      <div class="span-11 last">
+        <div id="links">
+          <a href="http://pushyapp.com">home</a>
+          <a href="http://pushyapp.com/login">login</a>
+          <a href="http://pushyapp.com/signup">signup!</a>
+        </div>
+      </div>
+    </div>
+    
+	<div class="span-21 last{% if page.type != 'home' %} content{% endif %}">
+		{% if page.title %}
+			<h2>{{ page.title }}</h2>
+		{% endif %}
+		
+    	{{ content }}
+	</div>
+      
+    <div id="footer" class="span-21">
+      <div class="info span-12">
+        <div class="links">
+			<a href="http://twitter.com/pushyapp">Twitter</a> |
+          <a href="http://blog.pushyapp.com">Blog</a> |
+	          <a href="http://pushyapp.com/faq">FAQ</a> |
+          <a href="http://pushyapp.com/support">Support</a>
+        </div>
+        <div class="company">
+          Pushy &copy; 2009 | <a href="mailto:staff@pushyapp.com">Email</a> | <a href="http://pushyapp.com/about">About Us</a>
+        </div>
+      </div>
+      <div class="fork span-7">
+        This website is <a href="http://github.com/pushy/pushy.github.com">open source</a>.
+        Please help us by forking the project and adding to it.
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
