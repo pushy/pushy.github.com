@@ -35,7 +35,7 @@ Our API is RESTful, which means that you'll need to use different HTTP request t
 	</tr>
 </table>
 
-For more information about REST, read the [Wikipedia Article](http://en.wikipedia.org/wiki/REST) about it.
+For more information about REST, read the [Wikipedia article](http://en.wikipedia.org/wiki/REST) about it.
 
 ### Authentication
 Requests to the API must be authenticated using HTTP Basic authentication unless otherwise noted. The username is the application key that you are requesting on behalf of.
