@@ -5,7 +5,7 @@ type: home
 
 <div class="span-21" id="welcome">
   <h1>Welcome to the Pushy API site</h1>
-  <p>Resources on using the official GitHub API.  This site contains documentation on the major API sections and libraries you can use to make use of GitHub with your programs and scripts.</p>
+  <p>Resources on using the official Pushy API. Leverage the full power of our service by integrating it into your application and engaging your customers.</p>
 </div>
 
 <div class="span-10">
