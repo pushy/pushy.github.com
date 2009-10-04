@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Devices API
+title: Device API
 ---
 
 The Devices API is used to register devices (iPhones, iPod touches, etc) with our service. This step is optional, but registering devices will allow you to associate an alias with the device, which will make it easier for you to send a notification in the future.
