@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tips and Tricks
+title: General API Info
 ---
 
 The API is fairly simple to implement into your applications and internal servers. Everything is done via HTTP requests to our API endpoints. Read on to learn a few tips and tricks that will help you while developing applications that use our API service.

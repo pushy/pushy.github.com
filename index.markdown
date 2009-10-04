@@ -12,7 +12,7 @@ type: home
 
   <div class='episode'>
     <div class="title"><a href="/api/general.html">General API Info</a></div>
-    <p>How to authenticate as a user, URL schema, and general tips and tricks for developing with the API.</p>
+    <p>How to authenticate requests, URL schema, and general tips and tricks for developing with the API.</p>
   </div>
 
   <div class='episode'>

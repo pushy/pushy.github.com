@@ -2,12 +2,12 @@ a {
 color: #008;
 }
 #welcome h1 {
-	text-align: center;
+text-align: center;
 }
 h2 {
-	padding-bottom: 1px;
-	border-bottom: 1px dotted #808080;
-	margin-bottom: 10px;
+background: #ddd;
+text-align: center;
+padding: 4px;
 }
 #welcome p {
 font-size: 1.3em;
@@ -24,7 +24,9 @@ padding: 10px;
 font-size: 1.2em;
 }
 .content h3 {
+background: #C2DDFA;
 font-size: 1.7em;
+padding: 6px 2px;
 }
 pre {
 padding: 20px;
