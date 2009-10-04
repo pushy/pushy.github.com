@@ -33,6 +33,9 @@ pre {
 #header #links { text-align:right; }
 #header #links a { color: #555; font-size: 1.2em; padding: 5px; margin: 10px; }
 
-.title { background: #C2DDFA; font-size: 1.4em; font-weight:bold; padding: 3px 3px;}
-.title a { color: #204A87; }
+.episode .title { background: #C2DDFA; font-size: 1.4em; font-weight:bold; padding: 3px 3px;}
+.episode .title a { color: #204A87; }
 .episode p { padding: 3px; font-size: 1.1em;}
+
+.note .title { font-weight: bold; }
+.note { background: #ffd; padding: 10px; margin-bottom: 20px; }

@@ -44,10 +44,13 @@ The password varies depending on which API you are using. If you are using the N
 
 The reasoning for this is security &mdash; you'll be using the Application Secret inside of your application and you'll be sending Push Notifications from our server. There is a different password so that if a user were to somehow get a hold of your Application Secret, they would not be able to start broadcasting notifications to all of your users. (If this were to ever happen, regenerate your API tokens from the control panel).
 
-{note:title=Warning!}Regenerating your API tokens will replace your current set of tokens. Your old set will *no longer function* for authentication. This means, among other things, that you'll need to submit a new update of your application to Apple that uses the new keys.{note}
+<div class="note">
+	<div class="title">Warning!</div>
+	Regenerating your API tokens will replace your current set of tokens. Your old set will <em>no longer function</em> for authentication. This means that you'll need to submit a new update of your application to Apple that uses the new keys.
+</div>
 
 ### Testing the API
-`curl` is a great command line utility that you can use to test out different API features. If you're on Mac OS X, it's already installed, and if you're using Linux, you'll be able to find it in your package repository.
+`curl` is a great command line utility that you can use to test out different API features. If you're on Mac OS X, it's already installed. If you're using Linux, you'll be able to find it in your package repository.
 
 Below is an example command that you could use to send a push notification:
 
