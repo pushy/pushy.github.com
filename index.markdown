@@ -8,7 +8,7 @@ type: home
   <p>Resources on using the official Pushy API. Leverage the full power of our service by integrating it into your application and engaging the customers of your iPhone applications.</p>
 </div>
 
-<div class="span-10">
+<div class="span-10 append-1">
 
   <div class='episode'>
     <div class="title"><a href="/api/general.html">General API Info</a></div>
@@ -22,7 +22,7 @@ type: home
 
 </div>
 
-<div class="span-10">
+<div class="span-10 last">
   
   <div class='episode'>
     <div class="title"><a href="/api/device.html">Device API</a></div>

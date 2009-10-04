@@ -12,7 +12,7 @@ h2 { background: #ddd; text-align: center; padding: 4px; }
 #welcome p { font-size: 1.3em; color: #444; text-align:center;}
 
 #header { margin: 20px 0; }
-#footer { background: #ddd;}
+#footer { background: #ddd; margin-top: 20px;}
 #footer a { color: #444; }
 
 .info, .fork { padding: 10px; }
