@@ -29,9 +29,9 @@ type: home
     <p>Register a new device so that you can send notifications to it more easily by assigning a memorable alias.</p>
   </div>
 
-  <div class='episode'>
+  <!-- not yet implemented <div class='episode'>
     <div class="title"><a href="/api/application.html">Application API</a></div>
     <p>List all of your applications, edit their settings, or create a new one.</p>
-  </div>
+  </div> -->
 	
 </div>
