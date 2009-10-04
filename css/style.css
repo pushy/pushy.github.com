@@ -11,7 +11,7 @@ h2 { background: #ddd; text-align: center; padding: 4px; }
 
 #welcome p { font-size: 1.3em; color: #444; text-align:center;}
 
-#header { }
+#header { margin-top: 20px; }
 #footer { background: #ddd;}
 #footer a { color: #444; }
 
