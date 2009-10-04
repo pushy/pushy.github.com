@@ -55,6 +55,6 @@ Below is an example command that you could use to send a push notification:
 
 Replace `key` with your application key, `pushsecret` with your application push secret, and `token` with a device token.
 
-The first argument is to configure the username and password to use for HTTP Basic Authentication. The second is to choose the request type to be used. In this case, it's POST, which means that it will be creating a new notification. Finally, the last two arguments specify POST keys and values to be sent with the request. Be sure to backslash escape the \[\] if necessary in your shell (change "\[\]" to "\\\[\\\]").
+The first argument is to configure the username and password to use for HTTP Basic Authentication. The second is to choose the request type to be used. In this case, it's POST, which means that it will be creating a new notification. Finally, the last two arguments specify POST keys and values to be sent with the request. Be sure to backslash escape the \[\] if necessary in your shell (replace "\[\]" with "\\\[\\\]").
 
 All of those arguments and more are documented in-depth in the CURL manual page. View it in your terminal with `man curl` or [read it in your browser](http://curl.haxx.se/docs/manpage.html).
