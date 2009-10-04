@@ -4,7 +4,7 @@ type: home
 ---
 
 <div class="span-21" id="welcome">
-  <h1>Welcome to the Pushy API site</h1>
+  <h1>Pushy Documentation</h1>
   <p>Resources on using the official Pushy API. Leverage the full power of our service by integrating it into your application and engaging the customers of your iPhone applications.</p>
 </div>
 

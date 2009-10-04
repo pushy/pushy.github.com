@@ -18,17 +18,14 @@
   <div class="container">
 
     <div class="span-21" id="header">
-      <div class="span-10">
-        <a href="/"><img src="http://assets.pushyapp.com/images/logo.png" alt="pushy logo" /></a>
-      </div>
-
-      <div class="span-11 last">
-        <div id="links">
-          <a href="http://pushyapp.com">home</a>
-          <a href="http://pushyapp.com/login">login</a>
-          <a href="http://pushyapp.com/signup">signup!</a>
-        </div>
-      </div>
+        <a href="/"><h1><span>Pushy</span></h1></a>
+      	<ul id="nav">
+			<li><a href="/">Home</a></li>
+			<li><a href="/faq">FAQ</a></li>
+			<li><a href="http://blog.pushyapp.com/">Blog</a></li>
+			<li><a href="/support">Support</a></li>
+			<li><a href="/about">About</a></li>
+		</ul>
     </div>
     
 	<div class="span-21 last{% if page.type != 'home' %} content{% endif %}">
@@ -40,21 +37,16 @@
 	</div>
       
     <div id="footer" class="span-21">
-      <div class="info span-12">
-        <div class="links">
-			<a href="http://twitter.com/pushyapp">Twitter</a> |
-          <a href="http://blog.pushyapp.com">Blog</a> |
-	          <a href="http://pushyapp.com/faq">FAQ</a> |
-          <a href="http://pushyapp.com/support">Support</a>
-        </div>
-        <div class="company">
-          Pushy &copy; 2009 | <a href="mailto:staff@pushyapp.com">Email</a> | <a href="http://pushyapp.com/about">About Us</a>
-        </div>
-      </div>
-      <div class="fork span-7">
-        This website is <a href="http://github.com/pushy/pushy.github.com">open source</a>.
-        Please help us by forking the project and adding to it.
-      </div>
+      	<p><span class="copyright">Copyright © 2009 Pushy Inc.</span> <span class="legal"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></span> <span class="about"><a href="#">Info</a> / <a href="#">Contact Us</a></span></p>
+			<p style="width:600px">
+				We use
+				<a href="http://rubyonrails.org/">Ruby on Rails</a>,
+				<a href="http://code.macournoyer.com/thin/">Thin</a>,
+				<a href="http://www.mysql.com/">MySQL</a>,
+				<a href="http://rackspacecloud.com">Rackspace Cloud</a> and
+				<a href="http://github.com/pushy">GitHub</a>.
+			</p>
+			<p>If you find a bug, email <a href="mailto:staff@pushyapp.com">our support team</a>.</p>
     </div>
 
   </div>

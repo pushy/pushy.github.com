@@ -7,14 +7,11 @@ The Devices API is used to register devices (iPhones, iPod touches, etc) with ou
 
 ### Register a Device
 
-**URL:**
-`https://pushyapp.com/api/v1/devices`
+**URL:** `https://pushyapp.com/api/v1/devices`
 
-**Formats:**
-`xml`, `json`
+**Formats:** `xml`, `json`
 
-**HTTP Method(s):**
-`POST`
+**HTTP Method(s):** `POST`
 
 **Parameters:**
 * `token`. Required. The Device Token of the device that you are registering.

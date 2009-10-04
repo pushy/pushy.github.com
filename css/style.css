@@ -1,41 +1,106 @@
-a { color: #008; }
-
-#welcome h1 {
-  padding: 20px; 
-  text-align: center; 
-  background: #204A87; 
-  color: #fff;
-  }
-
-h2 { background: #ddd; text-align: center; padding: 4px; }
-
-#welcome p { font-size: 1.3em; color: #444; text-align:center;}
-
-#header { margin: 20px 0; }
-#footer { background: #ddd; margin-top: 20px;}
-#footer a { color: #444; }
-
-.info, .fork { padding: 10px; }
-.content { font-size: 1.2em; }
-.content h3 { background: #C2DDFA; font-size: 1.7em; padding: 6px 2px; }
-
-pre {
-	padding: 20px; background: #ffd; font-size: 0.9em;
-	white-space: pre-wrap;       /* css-3 */
-	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-	white-space: -pre-wrap;      /* Opera 4-6 */
-	white-space: -o-pre-wrap;    /* Opera 7 */
-	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+a {
+color: #008;
 }
-
-#links { padding: 10px; }
-
-#header #links { text-align:right; }
-#header #links a { color: #555; font-size: 1.2em; padding: 5px; margin: 10px; }
-
-.episode .title { background: #C2DDFA; font-size: 1.4em; font-weight:bold; padding: 3px 3px;}
-.episode .title a { color: #204A87; }
-.episode p { padding: 3px; font-size: 1.1em;}
-
-.note .title { font-weight: bold; }
-.note { background: #ffd; padding: 10px; margin-bottom: 20px; }
+#welcome h1 {
+	text-align: center;
+}
+h2 {
+	padding-bottom: 1px;
+	border-bottom: 1px dotted #808080;
+	margin-bottom: 10px;
+}
+#welcome p {
+font-size: 1.3em;
+color: #444;
+text-align: center;
+}
+#header {
+margin-top: 20px;
+}
+.info,.fork {
+padding: 10px;
+}
+.content {
+font-size: 1.2em;
+}
+.content h3 {
+font-size: 1.7em;
+}
+pre {
+padding: 20px;
+background: #ffd;
+font-size: 0.9em;
+white-space: pre-wrap;/* css-3 */
+white-space:-moz-pre-wrap;/* Mozilla,since 1999 */
+white-space:-pre-wrap;/* Opera 4-6 */
+white-space:-o-pre-wrap;/* Opera 7 */
+word-wrap:break-word;/* Internet Explorer 5.5+ */
+}
+#links {
+padding: 10px;
+}
+div#header h1 {
+background: url(/images/logo.png);
+height: 60px;
+width: 126px;
+float: left;
+}
+div#header h1 span {
+display: none;
+}
+div#header ul#nav {
+float: left;
+margin: 22px 0;
+margin-left: 40px;
+}
+div#header ul#nav li {
+margin-left: 0;
+list-style: none;
+float: left;
+}
+div#header ul#nav li a:link,
+div#header ul#nav li a:visited {
+background: #505050;
+color: #ffffff;
+text-shadow: #000000 0 1px 0;
+font-weight: bold;
+text-decoration: none;
+padding: 8px 12px;
+margin: 4px;
+}
+div#header ul#nav li a:hover,
+div#header ul#nav li a:focus {
+background: #606060;
+}
+div#footer {
+border-top: 1px dotted #808080;
+padding: 10px;
+}
+div#footer p span.copyright {
+margin-right: 10px;
+}
+div#footer p span.about {
+float: right;
+margin-left: 10px;
+}
+.episode .title {
+background: #C2DDFA;
+font-size: 1.4em;
+font-weight: bold;
+padding: 3px 3px;
+}
+.episode .title a {
+color: #204A87;
+}
+.episode p {
+padding: 3px;
+font-size: 1.1em;
+}
+.note .title {
+font-weight: bold;
+}
+.note {
+background: #ffd;
+padding: 10px;
+margin-bottom: 20px;
+}
