@@ -19,7 +19,7 @@ This API method is for sending a notification to one or more device token and/or
 `POST`
 
 **Parameters:**
-* `devices`. Required if not using `aliases`. Array of device tokens in [Rails Array Format](/docs/rails-array.html) that the push notification will be sent to.
+* `tokens`. Required if not using `aliases`. Array of device tokens in [Rails Array Format](/docs/rails-array.html) that the push notification will be sent to.
 * `aliases`. Required if not using `devices`. Array of device aliases in [Rails Array Format](/docs/rails-array.html) that will automatically be mapped to a registered device token. The notification will be sent to those mapped device tokens.
 * `alert`. Optional. String of the alert text to show on the device's screen as part of the Push Notification.
 * `sound`. Optional. String of the name of the sound file to play as part of the Push Notification. Must be inside of the main bundle.
